@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    font-family: pacifico;
+    font-family: $font-title;
     text-align: center;
 
     .tituloPrincipal {
@@ -23,7 +23,7 @@ h1 {
 
 
 h2 {
-    font-family: roboto slab;
+    font-family: $font-subtitle;
     text-align: center;
 
     .tituloProductos {
@@ -33,7 +33,7 @@ h2 {
 }
 
 h3 {
-    font-family: roboto slab;
+    font-family: $font-subtitle;
     text-align: center;
 }
 
@@ -43,12 +43,12 @@ h3 {
 }
 
 h4 {
-    font-family: roboto slab;
+    font-family: $font-subtitle;
     text-align: center;
 }
 
 h5 {
-    font-family: roboto slab;
+    font-family: $font-subtitle;
     text-align: center;
 }
 
@@ -98,8 +98,9 @@ li {
     transition: all 1s;
 
     &:hover {
-        background-color: map-get($mapa-colores, fondoContacto);
+        background-color: map-get($mapa-colores, fondoNav);
         padding: 5px;
         font-size: 10px;
     }
 }
+

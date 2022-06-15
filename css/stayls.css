@@ -1,3 +1,5 @@
+/* mapa de colores */
+/* tipografia */
 * {
   margin: 0px;
   padding: 5px; }
@@ -6,21 +8,21 @@ body {
   background-color: #FFB226; }
 
 h1 {
-  font-family: pacifico;
+  font-family: "pacifico";
   text-align: center; }
   h1 .tituloPrincipal {
     animation-delay: 1s;
     animation-duration: 2s; }
 
 h2 {
-  font-family: roboto slab;
+  font-family: "roboto slab";
   text-align: center; }
   h2 .tituloProductos {
     animation-delay: 1s;
     animation-duration: 2s; }
 
 h3 {
-  font-family: roboto slab;
+  font-family: "roboto slab";
   text-align: center; }
 
 .tituloFooter {
@@ -28,11 +30,11 @@ h3 {
   animation-duration: 2s; }
 
 h4 {
-  font-family: roboto slab;
+  font-family: "roboto slab";
   text-align: center; }
 
 h5 {
-  font-family: roboto slab;
+  font-family: "roboto slab";
   text-align: center; }
 
 .textoInicio {
