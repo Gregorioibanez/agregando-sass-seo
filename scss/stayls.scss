@@ -1,4 +1,6 @@
 @import 'variables';
+@import 'mixins';
+
 
 * {
     margin: 0px;
@@ -70,23 +72,23 @@ h5 {
 }
 
 .imgProducto1 {
-    width: 390px;
+    @include width(390px)
 }
 
 .imgProducto2 {
-    width: 390px;
+    @include width(390px)
 }
 
 .imgExtraccion1 {
-    width: 400px;
+    @include width(400px)
 }
 
 .imgExtraccion2 {
-    width: 400px;
+    @include width(400px)
 }
 
 .mainVideo {
-    width: 101%;
+    @include width(101%)
 }
 
 li {
